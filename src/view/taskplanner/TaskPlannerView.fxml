@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="Infinity" minWidth="-Infinity" prefHeight="450" prefWidth="550" xmlns:fx="http://javafx.com/fxml/l" fx:controller="view.taskplanner.TaskPlannerController">
+    <children>
+        <Label fx:id="eventLabel" text="Label" />
+        <Button mnemonicParsing="false" onAction="#onUpdateButton" text="Update" />
+        <TaskPlanner fx:id="taskPlanner" preHeight="400" preWidth="500" />
+    </children>
+</VBox>
