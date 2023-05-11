@@ -22,7 +22,7 @@ public class TaskPlannerViewModel {
 
     public void upadateTaskPlanner() {
         notes = model.getNotes();
-        for ()
+
     }
 
     public StringProperty notesProperty() { return null; }
